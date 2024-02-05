@@ -6,7 +6,7 @@ You can replace the files or just add the code yourself.
 
 
 
------ config.lua
+/// config.lua
 
 --
 Config.TrunkCapacity = {
@@ -20,7 +20,7 @@ Config.TrunkCapacity = {
 
 
 ----- main.lua
---
+----
 
 if CurrentVehicle then -- Trunk
                 local cveh = QBCore.Functions.GetClosestVehicle()
@@ -43,4 +43,4 @@ if CurrentVehicle then -- Trunk
                     OpenTrunk()
                 end
             elseif CurrentGlovebox then
---
+----
