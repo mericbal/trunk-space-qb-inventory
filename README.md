@@ -20,9 +20,9 @@ Config.TrunkCapacity = {
 
 
 ----- main.lua
-----
 
-if CurrentVehicle then -- Trunk
+----
+        if CurrentVehicle then -- Trunk
                 local cveh = QBCore.Functions.GetClosestVehicle()
                 local vehName = GetDisplayNameFromVehicleModel(GetEntityModel(cveh))
 
@@ -43,4 +43,4 @@ if CurrentVehicle then -- Trunk
                     OpenTrunk()
                 end
             elseif CurrentGlovebox then
-----
+--
