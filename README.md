@@ -8,15 +8,15 @@ You can replace the files or just add the code yourself.
 
 /// config.lua
 
---
-Config.TrunkCapacity = {
-    ['ORACLE'] = { slots = 15, cap = 37000 }, -- Compacts
-    ['FELON2'] = { slots = 10, cap = 17000 }, -- Compacts
-    ['ZION'] = { slots = 10, cap = 15000 }, -- Compacts
-    ['ZION2'] = { slots = 8, cap = 12000 }, -- Compacts
-    ['BALLER4'] = { slots = 20, cap = 100000 }, -- Compacts
-}
---
+---
+        Config.TrunkCapacity = {
+            ['ORACLE'] = { slots = 15, cap = 37000 }, -- Compacts
+            ['FELON2'] = { slots = 10, cap = 17000 }, -- Compacts
+            ['ZION'] = { slots = 10, cap = 15000 }, -- Compacts
+            ['ZION2'] = { slots = 8, cap = 12000 }, -- Compacts
+            ['BALLER4'] = { slots = 20, cap = 100000 }, -- Compacts
+        }
+---
 
 
 ----- main.lua
