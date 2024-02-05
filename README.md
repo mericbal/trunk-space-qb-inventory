@@ -8,6 +8,7 @@ You can replace the files or just add the code yourself.
 
 ----- config.lua
 
+--
 Config.TrunkCapacity = {
     ['ORACLE'] = { slots = 15, cap = 37000 }, -- Compacts
     ['FELON2'] = { slots = 10, cap = 17000 }, -- Compacts
@@ -15,13 +16,13 @@ Config.TrunkCapacity = {
     ['ZION2'] = { slots = 8, cap = 12000 }, -- Compacts
     ['BALLER4'] = { slots = 20, cap = 100000 }, -- Compacts
 }
-
+--
 
 
 ----- main.lua
+--
 
 if CurrentVehicle then -- Trunk
--- mb                
                 local cveh = QBCore.Functions.GetClosestVehicle()
                 local vehName = GetDisplayNameFromVehicleModel(GetEntityModel(cveh))
 
@@ -41,5 +42,5 @@ if CurrentVehicle then -- Trunk
                     TriggerServerEvent('inventory:server:OpenInventory', 'trunk', CurrentVehicle, other)
                     OpenTrunk()
                 end
---
             elseif CurrentGlovebox then
+--
